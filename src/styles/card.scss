@@ -1,15 +1,8 @@
-.main__card {
-  margin-bottom: 50px;
-  width: 200px;
-}
-
 .card {
-  @include space-between(column);
+  padding: 15px 14px;
+  width: 200px;
   border: 1px solid $borderColor;
-
-  &_position {
-    padding: 15px 14px;
-  }
+  border-radius: 5px;
 
   &__image {
     width: 166px;
