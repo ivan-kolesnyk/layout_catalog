@@ -1,6 +1,4 @@
 .nav {
-  // display: flex;
-  // height: 100%;
 
   &__list {
     display: grid;
@@ -16,7 +14,6 @@
     &:last-child {
       margin-right: 0;
     }
-
   }
 
   &__link {
