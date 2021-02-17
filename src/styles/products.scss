@@ -1,0 +1,10 @@
+.products {
+
+  &__block {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    row-gap: 50px;
+    column-gap: 48px;
+    justify-content: center;
+  }
+}

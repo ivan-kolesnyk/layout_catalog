@@ -1,13 +1,11 @@
 .nav {
-  display: flex;
-  height: 100%;
 
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+
+    column-gap: 20px;
     list-style: none;
-    align-items: center;
-    width: 100%;
-    padding: 0;
   }
 
   &__item {
@@ -16,7 +14,6 @@
     &:last-child {
       margin-right: 0;
     }
-
   }
 
   &__link {
